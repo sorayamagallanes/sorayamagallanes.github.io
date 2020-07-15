@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(238, 222, 232);
+}
+
+
+
+.top {
+    /* border: 15px solid  rgb(255, 255, 255);
+    background-color:  rgb(255, 255, 255); */
+   
+    
+    text-align: center;
+    color: rgb(26, 13, 13);
+    
+}
+
+.display-3 {
+    font-size: 75px;
+    
+   
+}
+
+hr {
+    background-color: rgb(255, 255, 255);
+    height: 5px;
+    border-radius: 5px;
+}
+
+.navbar-light {
+    background-color: rgb(247, 247, 247);
+    
+}
+
+
+.hey {
+    height: 10px;
+}
+
+.aboutMe {
+    text-align: center;
+    padding-top: 20px;
+    
+    
+    
+}
+
+.aboutMeInner {
+    color: black;
+    
+    
+    
+}
+
+#port {
+    height: 20em;
+    width: 20em;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border:1px solid white;
+    
+    
+}
+
+.lead {
+    
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.projectsTitle {
+    text-align: center;
+}
+
+.display-4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.badge-img {
+    height: 90px;
+    margin-right: 40%;
+    margin-left: auto;
+
+}
