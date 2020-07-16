@@ -27,15 +27,13 @@
         <div class="navbar-nav">
           <a class="nav-item nav-link active" href="#aboutMeNav">About Me <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="#projectsNav">Projects</a>
-          <a class="nav-item nav-link" href="#">Contact Me</a>
+          <a class="nav-item nav-link" href="#contactNav">Contact Me</a>
          
         </div>
       </div>
     </nav>
 
-<!-- Claire 
-  i hate it here i rlly do
-like omg y am i so dumb -->
+
 
       <br>
       
@@ -47,7 +45,7 @@ like omg y am i so dumb -->
       <hr>
 
       <nav id= "aboutMeNav"></nav>
-      <img id = "port" src="" >
+      <img id = "port" src="photos/IMG_1645.JPG" >
             
       <div class="aboutMe"> 
        
@@ -55,22 +53,22 @@ like omg y am i so dumb -->
                   
                   <div class="aboutMeInner">
                    
-                  <p class= "lead">Hi! My name is Soraya Magallanes. I'm currently attending the Web Development Bootcamp at Eleven Fifty 
+                  <p class= "lead">Hi, my name is Soraya Magallanes. I'm currently attending the Web Development Course at Eleven Fifty 
                     Acadamy. As someone who loves to play video games and browsing social media, I knew 
-                    coding was something I would be interested in. I am looking forward to
-                    learning more and more! </p>
+                    coding was something I would be interested in.  I am looking forward to
+                    learning more and more every day! </p>
                 </div>
               </div>
              
               <br>
               
               <hr>
-                
+              <nav id="projectsNav"></nav>
                 <div class="projectsTitle">
                   <h4 class="display-4">My Projects</h4>
                 </div>
                 <br>
-                  <nav id="projectsNav"></nav>
+                  
 
 
                   <div class="card-deck">
@@ -80,10 +78,10 @@ like omg y am i so dumb -->
                         <h5 class="card-title">Static Webpage</h5>
                         <p class="card-text">A clone of the Netflix landing page using basic HTML and CSS.</p>
                         <a href=https://sorayamagallanes.github.io/staticpage/static.html target="_blank" class="card-link">View</a>
-                      </div>
-                    </div>
+                      </div>    
+                    </div>      
 
-                    <div class="card">
+                    <div class="card">    
                       <img class="card-img-top" src="photos/Screenshot (9).png" alt="Card image cap">
                       <div class="card-body">
                         <h5 class="card-title">CSS Eevee</h5>
@@ -94,12 +92,13 @@ like omg y am i so dumb -->
 
 
                     <div class="card">
-                      <img class="card-img-top" src="photos/Screenshot (11).png" alt="Card image cap">
+                      <img class="card-img-top" src="photos/Screenshot (15).png" alt="Card image cap">
                       <div class="card-body">
-                        <h5 class="card-title">Pokemon API Challenge</h5>
-                        <p class="card-text"> I pulled data from a Pokemon API and made it into a 
-                          basic, user-friendly application. </p>
-                        <a href=" "  target="_blank" class="card-link">View</a>
+                        <h5 class="card-title">Eeveelution API Challenge</h5>
+                        <p class="card-text"> Here is a simple page I made from fetching data  
+                          from an API and using DOM manipulation to display data on the screen. Naturally,
+                        I chose to display the eight adorable eeveelutions. </p>
+                        <a href="https://sorayamagallanes.github.io/apiProject/"  target="_blank" class="card-link">View</a>
                       </div>
                       
                     </div>
@@ -109,19 +108,154 @@ like omg y am i so dumb -->
                     <hr>
 
                     
-                    <h4 class="display-4">Blue Badge</h4>
+                    
+                    <h4 class="display-4">Blue and Red Badges</h4>
                     <p class="lead">To Be Announced</p>
                     <img class="badge-img" src="photos/badges-webdev_blue.png">
+                    <img class="badge-img" src="photos/badges-webdev_red.png">
                   
+                    <br>
+                    <hr>
+                    <h4 class="display-4">Contact Me</h4>
+                    <nav id="contactNav"></nav>
+                    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/xjvapaoa" method="post">
+                      <fieldset id="fs-frm-inputs">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" name="name" id="full-name" required="">
+                        <label for="email-address">Email Address</label>
+                        <input type="email" name="_replyto" id="email-address"  required="">
+                        <label for="message">Message</label>
+                        <textarea rows="5" name="message" id="message" required=""></textarea>
+                        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                      </fieldset>
+                      <input type="submit" value="Submit">
+                    </form>
+                    
+                    </form><style>/* reset */
+                    #fs-frm input,
+                    #fs-frm select,
+                    #fs-frm textarea,
+                    #fs-frm fieldset,
+                    #fs-frm optgroup,
+                    #fs-frm label,
+                    #fs-frm #card-element:disabled {
+                      font-family: inherit;
+                      font-size: 100%;
+                      color: inherit;
+                      border: none;
+                      border-radius: 0;
+                      display: block;
+                      width: 100%;
+                      padding: 0;
+                      margin: 0;
+                      -webkit-appearance: none;
+                      -moz-appearance: none;
+                    }
+                    #fs-frm label,
+                    #fs-frm legend,
+                    #fs-frm ::placeholder {
+                      font-size: .825rem;
+                      margin-bottom: .5rem;
+                      padding-top: .2rem;
+                      display: flex;
+                      align-items: baseline;
+                    }
+                    
+                    /* border, padding, margin, width */
+                    #fs-frm input,
+                    #fs-frm select,
+                    #fs-frm textarea,
+                    #fs-frm #card-element {
+                      border: 1px solid rgba(0,0,0,0.2);
+                      background-color: rgba(255,255,255,0.9);
+                      padding: .75em 1rem;
+                      margin-bottom: 1.5rem;
+                    }
+                    #fs-frm input:focus,
+                    #fs-frm select:focus,
+                    #fs-frm textarea:focus {
+                      background-color: white;
+                      outline-style: solid;
+                      outline-width: thin;
+                      outline-color: gray;
+                      outline-offset: -1px;
+                    }
+                    #fs-frm [type="text"],
+                    #fs-frm [type="email"] {
+                      width: 100%;
+                    }
+                    #fs-frm [type="button"],
+                    #fs-frm [type="submit"],
+                    #fs-frm [type="reset"] {
+                      width: auto;
+                      cursor: pointer;
+                      -webkit-appearance: button;
+                      -moz-appearance: button;
+                      appearance: button;
+                    }
+                    #fs-frm [type="button"]:focus,
+                    #fs-frm [type="submit"]:focus,
+                    #fs-frm [type="reset"]:focus {
+                      outline: none;
+                    }
+                    #fs-frm [type="submit"],
+                    #fs-frm [type="reset"] {
+                      margin-bottom: 0;
+                    }
+                    #fs-frm select {
+                      text-transform: none;
+                    }
+                    
+                    #fs-frm [type="checkbox"] {
+                      -webkit-appearance: checkbox;
+                      -moz-appearance: checkbox;
+                      appearance: checkbox;
+                      display: inline-block;
+                      width: auto;
+                      margin: 0 .5em 0 0 !important;
+                    }
+                    
+                    #fs-frm [type="radio"] {
+                      -webkit-appearance: radio;
+                      -moz-appearance: radio;
+                      appearance: radio;
+                    }
+                    
+                    /* address, locale */
+                    #fs-frm fieldset.locale input[name="city"],
+                    #fs-frm fieldset.locale select[name="state"],
+                    #fs-frm fieldset.locale input[name="postal-code"] {
+                      display: inline;
+                    }
+                    #fs-frm fieldset.locale input[name="city"] {
+                      width: 52%;
+                    }
+                    #fs-frm fieldset.locale select[name="state"],
+                    #fs-frm fieldset.locale input[name="postal-code"] {
+                      width: 20%;
+                    }
+                    #fs-frm fieldset.locale input[name="city"],
+                    #fs-frm fieldset.locale select[name="state"] {
+                      margin-right: 3%;
+                    }
+                    </style>
 
 
 
-
-
-
-
-
-
+                    <ul class="nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Back To Top</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#aboutMeNav">About Me</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#projectsNav">Projects</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">2020</a>
+                      </li>
+                    </ul>
 
 
 

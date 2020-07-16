@@ -66,10 +66,10 @@ hr {
 
 .lead {
     
-    width: 85%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 85%;         
+    display: block;     
+    margin-left: auto;  
+    margin-right: auto;     
     text-align: center;
 }
 
@@ -86,7 +86,10 @@ hr {
 
 .badge-img {
     height: 90px;
-    margin-right: 40%;
+    display: block;
     margin-left: auto;
+    margin-right: auto;
+    right: 400px;
+    
+    
 
-}
